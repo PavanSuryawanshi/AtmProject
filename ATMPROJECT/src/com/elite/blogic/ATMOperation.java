@@ -7,10 +7,10 @@ import com.elite.exceptions.WithdrawException;
 import java.util.Scanner;
 
 public class ATMOperation {
-    double balance = 0; // 500
+    double balance = 0; // 500 
     Scanner scn = new Scanner(System.in);
     // ATMOperation Constructor is used for initializing balance..
-    public ATMOperation() {
+    public ATMOperation(){
         balance = 500;
     }
 
